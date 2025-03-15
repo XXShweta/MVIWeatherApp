@@ -71,4 +71,8 @@ dependencies {
     implementation(libs.retrofit.converter.moshi)
     implementation(libs.okhttp.logging.interceptor)
 
+    implementation(libs.moshi)
+    implementation(libs.moshi.kotlin)
+    kapt("com.squareup.moshi:moshi-kotlin-codegen:1.15.2")
+
 }
